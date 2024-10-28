@@ -1,0 +1,162 @@
+/* @font-face {
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/AkzidenzGroteskPro-Regular.woff2) format('woff2');
+} */
+
+@media (min-width:316px) {}
+
+@media (min-width:550px) {}
+
+
+body {
+    /* display: flex; */
+    height: 100dvh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    font-family: "Golos Text";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.events-section {
+    width: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.event {
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section {
+    padding: 12px 0 0 0;
+    gap: 7dvh;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    align-items: flex-end;
+    transition: 0.8s ease-in-out;
+}
+
+.section img {
+    mix-blend-mode: multiply;
+    height: 90%;
+    margin: auto 12px auto auto;
+}
+
+.section h1 {
+    width: 17vw;
+}
+
+#section-logo {
+    background: #CCCBCB;
+    height: 40dvh;
+    padding: 0;
+
+    width: 10vw;
+
+    z-index: 5;
+}
+
+#section-menu {
+    background: #FBF5A4;
+    height: 70dvh;
+
+    z-index: 4;
+}
+
+#section-tour {
+    background: #5AB67F;
+    height: 80dvh;
+
+    z-index: 3;
+}
+
+#section-calendar {
+    background: #FFCCEB;
+    height: 90dvh;
+
+    z-index: 2;
+}
+
+#section-about {
+    background: none;
+    height: 100dvh;
+    width: calc(100vw - 24px);
+
+    z-index: 1;
+}
+
+#section-about p {
+    width: 17vw;
+}
+
+.section:hover {
+    width: 80vw;
+}
+
+form {
+    font-family: "Golos Text";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+button {
+    font-family: "Golos Text";
+    font-weight: 500;
+    font-size: 18px;
+
+    margin-top: 6px;
+
+    background: none;
+    stroke: none;
+    border: none;
+    padding: 0;
+}
+
+form p {
+    margin-bottom: 4px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#section-tour p {
+    width: 30vw;
+    margin-right: 24px;
+}
+
+#tour-desc {
+    margin-bottom: 18px;
+}
+
+input {
+    font-family: "Golos Text";
+    font-weight: 500;
+    font-size: 18px;
+
+    background: none;
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 0;
+
+    width: 150px;
+}
