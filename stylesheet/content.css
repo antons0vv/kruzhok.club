@@ -67,27 +67,28 @@ body {
 
 #section-logo {
     background: #CCCBCB;
-    height: 40dvh;
+    height: 60dvh;
     padding: 0;
 
-    width: 10vw;
+    width: 15vw;
 
     z-index: 5;
 }
 
-#section-menu {
-    background: #FBF5A4;
+#section-tour {
+    background: #5AB67F;
     height: 70dvh;
 
     z-index: 4;
 }
 
-#section-tour {
-    background: #5AB67F;
+#section-menu {
+    background: #FBF5A4;
     height: 80dvh;
 
     z-index: 3;
 }
+
 
 #section-calendar {
     background: #FFCCEB;
