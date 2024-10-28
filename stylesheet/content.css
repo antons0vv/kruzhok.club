@@ -41,7 +41,6 @@ body {
 .section {
     padding: 12px 0 0 0;
     gap: 7dvh;
-    width: 30vw;
 
     display: flex;
     flex-direction: column;
@@ -55,7 +54,7 @@ body {
     transition: 0.8s ease-in-out;
 }
 
-.section img {
+#logo {
     mix-blend-mode: multiply;
     height: 90%;
     margin: auto 12px auto auto;
@@ -78,6 +77,7 @@ body {
 #section-tour {
     background: #5AB67F;
     height: 70dvh;
+    width: 30vw;
 
     z-index: 4;
 }
@@ -85,14 +85,29 @@ body {
 #section-menu {
     background: #FBF5A4;
     height: 80dvh;
+    width: 32vw;
 
     z-index: 3;
+}
+
+.menu {
+    width: 30vw;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu p:hover {
+    text-decoration: underline;
 }
 
 
 #section-calendar {
     background: #FFCCEB;
     height: 90dvh;
+    width: 35vw;
 
     z-index: 2;
 }
@@ -102,15 +117,35 @@ body {
     height: 100dvh;
     width: calc(100vw - 24px);
 
+    flex-direction: row;
     z-index: 1;
+
+    gap: 24px;
+
+    align-items: start;
+    justify-content: flex-end;
 }
 
-#section-about p {
+.about {
     width: 17vw;
+    margin-bottom: 7dvh;
 }
 
-.section:hover {
+#section-tour:hover {
+    width: 60vw;
+}
+
+#section-calendar:hover {
     width: 80vw;
+}
+
+#section-menu:hover {
+    width: 70vw;
+}
+
+.everyday-img {
+    margin-top: 6px;
+    height: 95dvh;
 }
 
 form {
